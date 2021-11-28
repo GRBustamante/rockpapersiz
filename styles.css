@@ -1,0 +1,92 @@
+body {
+    color: white;
+    background-color: black;
+   font-size: 36px;
+  
+}
+.matchResults{
+border:white 1px solid;
+display:flex;
+justify-content: center;
+padding:4px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.selections {
+    
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.selection {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    font-size: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.selection:hover {
+    transform: scale(1.2);
+}
+#matchResults {
+    border:white 1px solid;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.round{
+    display: flex;
+    font-size: 24px;
+    margin:5px;
+    justify-content: space-evenly;
+}
+
+.scores{
+    display: flex;
+ 
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+    .playerScore {
+    padding: 5px;
+    border: white 2px solid;
+    padding-bottom: 25px;
+}
+    #playerPrint{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: monospace;
+} 
+    .computerScore {
+    padding: 5px;
+    border: white 2px solid;
+    padding-bottom: 25px;
+}
+    #computerPrint{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.bottom{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+button {
+    color:white;
+    background-color: black;
+    font-size: 25px;
+    margin: 5px;
+    cursor:pointer;
+}
